@@ -5,6 +5,7 @@ const DogList = ({ dogs }) => {
     return (
         <div>
             <h1>Available Dogs</h1>
+        
             <ul>
                 {dogs.map(dog => (
                     <li key={dog.name} >
